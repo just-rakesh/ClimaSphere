@@ -203,6 +203,14 @@ button {
   width: 250px;
 }
 
+.preparedBy {
+  color: #254441;
+  font-size: 22px;
+  position: absolute;
+  top: 93%;
+  right: 20px;
+  font-weight: bold;
+}
 @media (max-width: 768px) {
   .container {
     height: 475px;
