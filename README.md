@@ -1,6 +1,6 @@
-# WeatherWizard
+# Clima Sphere
 
-**WeatherWizard** is a sleek and user-friendly weather application that provides real-time weather updates, forecasts, and detailed climate information. Built with modern technologies, this app is designed to help users stay informed about the weather conditions in their area or anywhere in the world.
+**Clima Sphere** is a sleek and user-friendly weather application that provides real-time weather updates, forecasts, and detailed climate information. Built with modern technologies, this app is designed to help users stay informed about the weather conditions in their area or anywhere in the world.
 
 ---
 
