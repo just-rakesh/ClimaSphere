@@ -4,8 +4,6 @@ const cityName = document.querySelector(".city");
 const foreCasts = document.querySelector(".forecastInfo");
 
 const apiKey = "a0713eaa16ec88ca58c6c3e0de41a891";
-// let url = `https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=${apiKey}`;
-// let url = `https://api.openweathermap.org/data/2.5/weather?q=`;
 
 let city = "";
 
