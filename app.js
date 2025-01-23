@@ -3,7 +3,7 @@ const button = document.querySelector("button");
 const cityName = document.querySelector(".city");
 const foreCasts = document.querySelector(".forecastInfo");
 
-const apiKey = "a0713eaa16ec88ca58c6c3e0de41a891";
+const apiKey = "a0713eaa16ec88ca58c6c3e0de41a891"; //* Please search for the OpenWeatherMap API and get your own API key just by signing up. Don't misuse mine, please.
 
 let city = "";
 
