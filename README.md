@@ -23,6 +23,6 @@
 
 ## CheckOut
 
-- **Link :** [text](https://weather-wizard-git-main-rakesh-das-projects-709cd99d.vercel.app/)
+- **Link :** https://weather-wizard-git-main-rakesh-das-projects-709cd99d.vercel.app/
 
 ---
