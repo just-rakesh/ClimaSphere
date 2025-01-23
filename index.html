@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200&icon_names=searchlocation_onwater_dropair"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="container">
+        <div class="inputContainer">
+          <input
+            type="text"
+            name="City"
+            placeholder="Search City"
+            autocomplete="off"
+          />
+          <button>
+            <span class="material-symbols-outlined"> search </span>
+          </button>
+        </div>
+        <div class="weatherData" style="display: none">
+          <div class="locationDateInfo">
+            <div class="location">
+              <span class="material-symbols-outlined"> location_on </span>
+              <span class="city"></span>
+            </div>
+            <span class="date"></span>
+          </div>
+          <div class="weatherInfo">
+            <img src="./assets/weather/clouds.svg" alt="" class="weatherImg" />
+            <div class="weatherSummary">
+              <span class="temperature"></span>
+              <span class="weather state"></span>
+            </div>
+          </div>
+          <div class="measures">
+            <div class="measureInfo">
+              <span class="material-symbols-outlined"> water_drop </span>
+              <div class="txt">
+                <span>Humidity</span>
+                <span class="humidityValue"></span>
+              </div>
+            </div>
+            <div class="measureInfo">
+              <span class="material-symbols-outlined"> air </span>
+              <div class="txt">
+                <span>Wind Speed</span>
+                <span class="windSpeedValue"></span>
+              </div>
+            </div>
+          </div>
+          <div class="forecastInfo">
+            <div class="forecast">
+              <span class="day">Thu, 22</span>
+              <img src="./assets/weather/clear.svg" alt="" class="foreImg" />
+              <span class="temp">25°C</span>
+            </div>
+            <div class="forecast">
+              <span class="day">Fri, 23</span>
+              <img src="./assets/weather/clouds.svg" alt="" class="foreImg" />
+              <span class="temp">25°C</span>
+            </div>
+            <div class="forecast">
+              <span class="day">Sat, 24</span>
+              <img src="./assets/weather/clouds.svg" alt="" class="foreImg" />
+              <span class="temp">25°C</span>
+            </div>
+            <div class="forecast">
+              <span class="day">Sun, 25</span>
+              <img src="./assets/weather/clouds.svg" alt="" class="foreImg" />
+              <span class="temp">25°C</span>
+            </div>
+            <div class="forecast">
+              <span class="day">Mon, 26</span>
+              <img src="./assets/weather/clouds.svg" alt="" class="foreImg" />
+              <span class="temp">25°C</span>
+            </div>
+          </div>
+        </div>
+        <div class="searchMessage">
+          <img src="./assets/message/search-city.png" class="searchImg" />
+          <h2 class="searchCity">Search City</h2>
+          <h3 style="text-align: center">
+            Search for a city to get weather information
+          </h3>
+        </div>
+        <div class="searchMessage errorMessage" style="display: none">
+          <img src="./assets/message/not-found.png" class="searchImg" />
+          <h2 class="searchCity">City Not Found</h2>
+          <h3 style="text-align: center">Please enter a valid city name</h3>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
